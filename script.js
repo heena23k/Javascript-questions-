@@ -250,5 +250,96 @@
 // console.log(divisibleby3And5(15));
 
 
-// 29. 
+// 29. Write a function that returns the grade of a student based on their score.
+
+// function getGrade(score){
+//     if(score<0||score>100){
+//         return "invalid";
+//     }
+//     if(score>90){
+//         return "A";
+//     }
+//     else if(score>80){
+//         return "B";
+//     }
+//     else if(score>70){
+//         return "C";
+//     }
+//     else if(score>60){
+//         return "D";
+//     }
+//     else{
+//         return "F";
+//     }
+    
+// }
+// console.log(getGrade(85));
+
+// 30 Find the sum of all elements in an array
+
+// let arr = [10,20,30];
+// let sum = arr.reduce((total,arr)=>total+arr,0);
+// console.log(sum);
+
+// 31  Create a function that returns the largest element in an array.
+
+// let arr = [10,20,30,60,87,90];
+// function largestElement(arr){
+//     // return Math.max(...arr)
+//     // 2nd approach
+//     return Math.max(70,56,89,99)
+// }
+
+// console.log(largestElement(arr));
+
+// 32 Write a function to reverse an array without using built-in functions
+
+// function reverseArray(arr){
+//     let start =0;
+//     let last = arr.length-1;
+//     while(start<last){
+//         let temp = arr[start];
+//         arr[start] = arr[last];
+//         arr[last] = temp;
+//         start++;
+//         last--;
+
+//     }
+//     return arr;
+// }
+// let myarr = [1,2,3,4,5,6];
+// console.log(reverseArray(myarr));
+ 
+
+// // 33 Create an array of numbers and print each number using a loop
+// let number = [1,2,3,4,5,6,7,8,9];
+// number.forEach(num=>console.log(number)
+// )
+
+// 34 Write a function that finds the average of an array of numbers
+// function findAverage(arr) {
+    
+//     if (arr.length === 0) {
+//         return 0; // Return 0 if the array is empty to avoid division by zero.
+//     }
+
+//     let sum = 0;
+
+//     // Calculate the sum of all elements
+//     for (let i = 0; i < arr.length; i++) {
+//         sum += arr[i];
+//     }
+
+//     // Calculate and return the average
+//     return sum / arr.length;
+// }
+
+// // Example usage
+// let numbers = [10, 20, 30,40,50];
+// console.log(findAverage(numbers));
+
+
+// 35 Write a function to remove duplicates from an array.
+
+
 
